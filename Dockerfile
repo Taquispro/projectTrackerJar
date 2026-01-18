@@ -1,5 +1,5 @@
 # Use lightweight Java 17 runtime (recommended for Spring Boot)
-FROM eclipse-temurin:17-jre-alpine
+FROM eclipse-temurin:21-jre-alpine
 
 # Set working directory
 WORKDIR /app
