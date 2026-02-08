@@ -5,7 +5,7 @@ FROM eclipse-temurin:21-jre-alpine
 WORKDIR /app
 
 # Copy the JAR file into container
-COPY RestProjectTracker-0.0.1-SNAPSHOT.jar app.jar
+COPY RestProjectTracker-0.0.2-SNAPSHOT.jar app.jar
 
 # Expose port (Render uses 8080 by default for Spring Boot)
 EXPOSE 8080
